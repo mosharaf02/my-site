@@ -1,0 +1,78 @@
+.services {
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.textContainers {
+  flex: 1;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.textContainers p {
+  font-weight: 200;
+  font-size: 20px;
+  text-align: end;
+}
+.textContainers hr {
+  width: 500px;
+  border: none;
+  border-top: 0.5px solid gray;
+}
+.titleContainers {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titleContainers h1 {
+  font-size: 96px;
+  font-weight: 100;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.titleContainers button {
+  width: 300px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: orange;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #ffff;
+  font-weight: 500;
+}
+.title img {
+  width: 300px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.listContainers {
+  display: flex;
+  flex: 2;
+  max-width: 1366px;
+  margin: auto;
+}
+.listContainers .boxs {
+  padding: 50px;
+  border: 0.5px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.listContainers .boxs button {
+  padding: 10px;
+  background-color: orange;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #ffff;
+  font-size: 18px;
+}

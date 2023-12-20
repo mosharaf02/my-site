@@ -1,0 +1,64 @@
+.portfolio {
+  position: relative;
+}
+.progress {
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+  text-align: center;
+  color: orange;
+  font-size: 36px;
+}
+.progressBar {
+  height: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.Container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.TextContainers {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.TextContainers h2 {
+  font-size: 72px;
+}
+.TextContainers p {
+  color: gray;
+  font-size: 20px;
+}
+.TextContainers button {
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+.Wraper {
+  max-width: 1366px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.ImigContainer {
+  flex: 1;
+  height: 50%;
+}

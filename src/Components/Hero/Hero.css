@@ -2,7 +2,7 @@
   height: calc(100vh - 100px);
   background: linear-gradient(180deg, #0c0c1d, #111132);
   overflow: hidden;
-  /* position: relative; */
+  position: relative;
 }
 .imageContainer img {
   height: 100%;
@@ -43,6 +43,7 @@
   margin-right: 20px;
   cursor: pointer;
   font-weight: 500;
+  cursor: pointer;
 }
 .slidingTextContainer {
   position: absolute;

@@ -13,13 +13,13 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Web Cell Point
+          CREATIVITY
         </motion.span>
         <div className="social">
-          <a href="">
+          <a href="https://www.instagram.com/to__ki__hoica/">
             <img src={ing} alt="" />
           </a>
-          <a href="">
+          <a href="https://www.facebook.com/mosharafpapu.63">
             <img src={fa} alt="" />
           </a>
         </div>
